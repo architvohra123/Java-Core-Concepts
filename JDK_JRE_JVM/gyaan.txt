@@ -1,0 +1,20 @@
+jdk is java development kit
+we need this because when we write a code, we have to convert it into byte code (machine lang)
+this will run on a machine, 
+
+jvm is java virtual machine
+compile your code using jdk and run the byte code on jvm
+this is the place where code is actually executed.
+
+JRE is Java runtime environment
+maybe you have used some extra files or inbuilt libraries, where you will find this code?
+this is where JRE comes.
+
+
+
+
+JDK is (JRE + compiler or you can say javac)
+
+JRE is (JVM + inbuilt libraries and files required for supporting code to run in new softwares)
+
+JVM is (actual machine where compiled byte code runs/executed)

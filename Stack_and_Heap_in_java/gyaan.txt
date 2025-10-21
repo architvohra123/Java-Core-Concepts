@@ -1,0 +1,9 @@
+inside jvm we have 2 types of memories:
+
+Stack:
+based on lifo (last in first out)
+every method will have its own Stack
+a stack will have 2 parts: key and value
+
+
+Heap:
