@@ -30,7 +30,6 @@ public class Main {
         // or you could get it by 1000 % 256 = 
         int i = 1000 % 256;
         System.out.println(i);
-        
-        
+
     }
 }

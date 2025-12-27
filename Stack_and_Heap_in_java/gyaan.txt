@@ -7,3 +7,17 @@ a stack will have 2 parts: key and value
 
 
 Heap:
+Heap is a global memory that is shared by all the objects in a program.
+It is based on the principle of garbage collection, where the objects that are no longer referenced are removed from the memory.
+
+
+// Important points to note about stack and heap:
+
+// 1. Stack is LIFO (Last In First Out) whereas Heap is based on garbage collection.
+// 2. Stack is used for storing primitive data types and object references, whereas Heap is used for storing objects in the form of key-value pairs.
+// 3. Stack is used for execution of a program, whereas Heap is used for storing objects.
+// 4. The size of the stack is smaller than the size of the heap.
+// 5. The stack is thread-safe, whereas the heap is not thread-safe.
+// The stack is thread-safe because each thread has its own stack, so the data stored in the stack is not shared between threads.
+// The heap is not thread-safe because it is a global memory that is shared by all the threads, so the data stored in the heap can be accessed and modified by multiple threads simultaneously.
+// 6. The stack is used for storing local variables and method parameters, whereas the heap is used for storing objects that are created using the new keyword.
