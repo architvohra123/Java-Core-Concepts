@@ -81,6 +81,18 @@ public class Main {
         // It is NOT a child interface of Collection interface
         // It is used to represent a group of key-value pairs as a single unit
         // implemented by HashMap class (introduced in v1.2), LinkedHashMap class (introduced in v1.4), TreeMap class (introduced in v1.2), Hashtable class (introduced in v1.0)
-        // 
+        
+        // 8. SortedMap interface
+        // It is a child interface of Map interface
+        // If we want to represent a group of key-value pairs as a single unit where the keys are sorted in ascending order, then we can use SortedMap interface
+        // implemented by TreeMap class
+
+        // 9. NavigableMap interface
+        // It is a child interface of SortedMap interface
+        // It defines methods for navigating the map in a sorted order
+        // implemented by TreeMap class
+        // so basically the order is:
+        // Map interface -> SortedMap interface -> NavigableMap interface -> TreeMap class
+        
     }
 }
