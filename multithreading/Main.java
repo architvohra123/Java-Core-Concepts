@@ -18,6 +18,13 @@ public class Main {
         // multiprogramming: multiple programs running at the same time
             // this means multiple programs are loaded in memory and cpu switches between them to give the illusion of parallelism
 
+        // multiprocessing: multiple processors (CPUs) in a system
+            // example: servers, high end systems
+    
+        // does this mean multiprocessing and multitasking are same?
+        // no, multiprocessing is about having multiple CPUs
+        // multitasking is about executing multiple tasks at the same time
+
         // does this mean multitasking and multiprogramming are same?
         // no, multitasking is about executing multiple tasks at the same time
         // multiprogramming is about having multiple programs in memory and switching between them to give the illusion of parallelism
@@ -63,9 +70,6 @@ public class Main {
         // Note: in total we can have these many threads: cpu core count * 2
         // why is a core has 2 threads:
         // because of hyper-threading technology which allows a single core to run multiple threads
-
-        
-
 
     }
 }
